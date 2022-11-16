@@ -8,7 +8,7 @@
 import Foundation
 
 
-class patch:Codable {
+class patch:Decodable {
     
     var small:String
     var large:String
